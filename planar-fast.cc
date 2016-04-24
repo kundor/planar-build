@@ -6,14 +6,14 @@
  *    (because they'll all be too small to match). Fewer to search --> faster.
  *  - use a cubic planar canonical labeler?
  * Timings for MAX_FACES=34:
- *   densenauty,            -O2 -march=native : 4m56.408s
- *     w/ twopaths,         -O2 -march=native : 1m31.677s
+ *   densenauty,            -O2 -march=native : 4m56s
+ *     w/ twopaths,         -O2 -march=native : 1m32s
  *   sparsenauty,           -O2 -march=native : 3m24s 
  *     w/ schreier,         -O2 -march=native : 3m21s
- *     w/distances_sg 2,    -O2 -march=native : 1m24
+ *     w/distances_sg 2,    -O2 -march=native : 1m24s
  *     w/distances_sg 2,    -O3 -march=native : 1m25s
- *       w/ schreier,       -O2 -march=native : 1m34.450s
- *     w/distances_sg 3,    -O2 -march=native : 1m30.836s
+ *       w/ schreier,       -O2 -march=native : 1m34s
+ *     w/distances_sg 3,    -O2 -march=native : 1m31s
  *       w/ schreier,       -O2 -march=native : 1m30s
  */
 #include <vector>
