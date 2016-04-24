@@ -809,11 +809,3 @@ int main() {
     return 0;
 }
 
-/* New methods:
- * 4 edges: close adjacent, next guy has length two, one back to other endpoint of F
- * these are extensions of 7!!
- * Wait, 3 is a special case of 5 and 6!!
- * Remove 3; for 6 change to n > 4 (when n==4, it is the same as 5),
- * split 7 in two cases similarly (one with n >= 4, one with n >= 5)
- * check case 5 method code covers case 3. combine with case 7, like current 3/7??
- */
